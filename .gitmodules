@@ -5,5 +5,5 @@
 	path = lib/SAR
 	url = git://github.com/yatharthgarg/Speech-Accent-Recognition
 [submodule "lib/lib/arnet"]
-	path = lib/lib/arnet
+	path = lib/arnet
 	url = https://gitee.com/ephemeroptera/arnet.git
