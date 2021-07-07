@@ -1,9 +1,6 @@
 [submodule "lib/deepface"]
 	path = lib/deepface
 	url = git://github.com/serengil/deepface.git
-[submodule "lib/SAR"]
-	path = lib/SAR
-	url = git://github.com/yatharthgarg/Speech-Accent-Recognition
-[submodule "lib/lib/arnet"]
+[submodule "lib/arnet"]
 	path = lib/arnet
 	url = https://gitee.com/ephemeroptera/arnet.git
