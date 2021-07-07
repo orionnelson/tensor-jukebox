@@ -1,6 +1,3 @@
 [submodule "lib/deepface"]
 	path = lib/deepface
 	url = git://github.com/serengil/deepface.git
-[submodule "lib/arnet"]
-	path = lib/arnet
-	url = https://gitee.com/ephemeroptera/arnet.git
