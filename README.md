@@ -1,6 +1,11 @@
 # tensor-jukebox
 A Jukebox that guesses the music you might want to play based on age and accent.
 
+The Idea Behind Tensor Jukebox is is to be able better predict what music a person will be more likely to choose based on their age gender accent race and emotion.
+
+Accent Detection in Machine Learning models is a newer concept so this project will consist of learning Tensorflow and then eventually working to reverse engineer the submissions for INTERSPEECH AESRC 2020 Challenge.
+
+
 ```A Python3 Project ```
 
 
