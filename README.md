@@ -10,13 +10,21 @@ A Jukebox that guesses the music you might want to play based on age and accent.
  
 > https://github.com/serengil/deepface
 
-#Libraries To Look For
-> Spotify Bluetooth Implementation
+#Libraries To Look For and Needed Features
 
+> Spotify Bluetooth Implementation
 
 > Apple Music Bluetooth Implementation
 
 > Better Emotion Tracking Libraries
+
+> Statistics on Peak Music Stagnation
+
+> List of Intergenerational Songs
+
+> Music Prefrences Based on Age Gender and Major Catagories of that Group.
+
+> Boring Database Stuff
 
 
 ## Intructions to install:
