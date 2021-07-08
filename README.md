@@ -6,6 +6,9 @@ The Idea Behind Tensor Jukebox is is to be able to better predict what music a p
 Accent Detection in Machine Learning models is a newer concept so this project will consist of learning Tensorflow and then eventually working to reverse engineer the submissions for INTERSPEECH AESRC 2020 Challenge.
 
 
+Speech Recognition Training Using an Breakthrough Wav2Vec Model: 
+https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
+
 ```A Python3 Project ```
 
 
