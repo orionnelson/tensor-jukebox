@@ -9,7 +9,6 @@ click==8.0.1
 cmake==3.20.5
 colorama==0.4.4
 cycler==0.10.0
-dataclasses==0.8
 deepface==0.0.63
 dlib==19.22.0
 filelock==3.0.12
