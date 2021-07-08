@@ -16,6 +16,8 @@ A Jukebox that guesses the music you might want to play based on age and accent.
 
 > Apple Music Bluetooth Implementation
 
+> Better Emotion Tracking Libraries
+
 
 ## Intructions to install:
 
