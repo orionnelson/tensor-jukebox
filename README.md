@@ -5,7 +5,9 @@ A Jukebox that guesses the music you might want to play based on age and accent.
 # Libraries In Use
  *BACKGROUND BASED ON ACCENT*
 > https://gitee.com/ephemeroptera/arnet.git
+ 
  *ETHNICITY GENDER AND AGE*
+ 
 > https://github.com/serengil/deepface
 
 #Libraries To Look For
