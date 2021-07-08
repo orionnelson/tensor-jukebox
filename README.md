@@ -3,8 +3,10 @@ A Jukebox that guesses the music you might want to play based on age and accent.
 
 
 # Libraries In Use
-> https://gitee.com/ephemeroptera/arnet.git  *BACKGROUND BASED ON ACCENT*
-> https://github.com/serengil/deepface *ETHNICITY GENDER AND AGE*
+ *BACKGROUND BASED ON ACCENT*
+> https://gitee.com/ephemeroptera/arnet.git
+ *ETHNICITY GENDER AND AGE*
+> https://github.com/serengil/deepface
 
 #Libraries To Look For
 > Spotify Bluetooth Implementation
