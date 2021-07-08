@@ -10,7 +10,7 @@ A Jukebox that guesses the music you might want to play based on age and accent.
  
 > https://github.com/serengil/deepface
 
-#Libraries To Look For and Needed Features
+# Libraries To Look For and Needed Features
 
 > Spotify Bluetooth Implementation
 
