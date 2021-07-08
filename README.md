@@ -45,7 +45,7 @@ Next I would recommend setting up ```pyvenv```
 
 ```
 1 : Get cmake  >> pip install cmake
-2 : Install dlib  >> pip install dlib
+2 : Install dlib  >> pip install dlib -vvv
  Then >> pip install -r requirements.txt
 3 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
 ```
