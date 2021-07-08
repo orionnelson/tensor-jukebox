@@ -44,6 +44,9 @@ Follow this tutorial here https://medium.com/analytics-vidhya/how-to-install-dli
 Next I would recommend setting up ```pyvenv```
 
 
+1 : Get cmake ```pip install cmake```
+2 : Install dlib ```pip install dlib```
  Then  ```pip install -r requirements.txt``` 
+3 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0
 
 ## Make sure a webcam is connected in order to test ```DeepFaceExample.py```
