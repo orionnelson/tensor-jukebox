@@ -28,4 +28,4 @@ Next I would recommend setting up ```pyvenv```
 
  Then  ```pip install -r requirements.txt``` 
 
-## Make sure You have a webcam connected in order to test ```DeepFaceExample.py```
+## Make sure a webcam is connected in order to test ```DeepFaceExample.py```
