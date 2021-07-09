@@ -55,7 +55,7 @@ Follow this tutorial to get a general understanding of Git bash https://kbroman.
 
 Follow this tutorial here https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f
 
-Next I would recommend setting up ```pyvenv``` https://docs.python.org/3/library/venv.html
+Next I would recommend setting up ```pyvenv``` https://docs.python.org/3/library/venv.html use ```python -m ``` not ```python3```
 
 ```
 1 : Get cmake  >> pip install cmake
