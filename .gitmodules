@@ -4,3 +4,6 @@
 [submodule "lib/arnet"]
 	path = lib/arnet
 	url = https://gitee.com/ephemeroptera/arnet.git
+[submodule "lib/wav2vec2-large-960h-lv60"]
+	path = lib/wav2vec2-large-960h-lv60
+	url = https://huggingface.co/facebook/wav2vec2-large-960h-lv60
