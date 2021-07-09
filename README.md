@@ -39,6 +39,8 @@ https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
 
 ## Intructions to install:
 
+Install MinGW and make sure that gcc  is working from commandline this is required for Cmake to work.
+
 Follow this tutorial to get a general understanding of Git bash https://kbroman.org/github_tutorial/pages/first_time.html
 
 ## The Command Needed to download the repo is
