@@ -37,9 +37,13 @@ https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
 > Boring Database Stuff
 
 
-## Intructions to install:
+## Intructions to install Complete:
 
-Install MinGW and make sure that gcc  is working from commandline this is required for Cmake to work.
+Install MinGW and make sure that gcc is working on system path.
+
+- Do this like me first install choco in powershell https://chocolatey.org/install and run the ps1 script.
+- make sure choco is on system path
+- Then do  ```choco install mingw``` 
 
 Follow this tutorial to get a general understanding of Git bash https://kbroman.org/github_tutorial/pages/first_time.html
 
