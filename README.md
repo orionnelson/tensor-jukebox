@@ -11,6 +11,7 @@ https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
 
 ```A Python3 Project ```
 
+Shortlink: or9.ca/jbox
 
 # Libraries In Use
  *BACKGROUND BASED ON ACCENT - Not Final*
