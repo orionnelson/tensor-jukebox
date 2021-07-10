@@ -7,8 +7,8 @@ from jiwer import wer
 
 librispeech_eval = load_dataset("librispeech_asr", "clean", split="test")
 
-model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-large-960h-lv60").to("cuda")
-tokenizer = Wav2Vec2Tokenizer.from_pretrained("facebook/wav2vec2-large-960h-lv60")
+model = Wav2Vec2ForCTC.from_pretrained("lib/wav2vec2-large-960h-lv60").to("cuda")
+tokenizer = Wav2Vec2Tokenizer.from_pretrained("lib/wav2vec2-large-960h-lv60")
 
 def map_to_array(batch):
     speech, _ = sf.read(batch["file"])
