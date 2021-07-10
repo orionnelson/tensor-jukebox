@@ -51,6 +51,8 @@ Follow this tutorial to get a general understanding of Git bash https://kbroman.
 ## The Command Needed to download the repo is
 
 ```git clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
+or
+```git lfs clone``` *You want to work on wav2vec model.
 
 ## Before Installing Requirements First Install both Cmake and Visual Studio Cmake addons.
 
