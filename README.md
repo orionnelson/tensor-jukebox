@@ -5,6 +5,7 @@ The Idea Behind Tensor Jukebox is is to be able to better predict what music a p
 
 Accent Detection in Machine Learning models is a newer concept so this project will consist of learning Tensorflow and then eventually working to reverse engineer the submissions for INTERSPEECH AESRC 2020 Challenge.
 
+> NEMO ASR Tutorial and Introduction : https://colab.research.google.com/github/NVIDIA/NeMo/blob/r1.0.0b3/tutorials/asr/01_ASR_with_NeMo.ipynb
 
 > Speech Recognition Training Using an Breakthrough Wav2Vec Model: https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
 
