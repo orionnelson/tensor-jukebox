@@ -10,7 +10,7 @@ Accent Detection in Machine Learning models is a newer concept so this project w
 
 > Speaker Identification with NeMo : https://github.com/NVIDIA/NeMo/blob/main/tutorials/speaker_recognition/Speaker_Recognition_Verification.ipynb
 
-> Speach Parsing and Recognition with Nvida Jasper : https://ngc.nvidia.com/catalog/models/nvidia:tlt-jarvis:speechtotext_english_jasper
+> Speech Parsing and Recognition with Nvida Jasper : https://ngc.nvidia.com/catalog/models/nvidia:tlt-jarvis:speechtotext_english_jasper
 
 > Nvidia auto Punctuation Methods : https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/punctuation_and_capitalization.html
 
