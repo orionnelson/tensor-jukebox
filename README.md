@@ -50,19 +50,20 @@ Follow this tutorial to get a general understanding of Git bash https://kbroman.
 
 ## The Command Needed to download the repo is
 
-```git clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
+```git lfs clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
 
 ## Before Installing Requirements First Install both Cmake and Visual Studio Cmake addons.
 
 Follow this tutorial here https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f
 
 Next I would recommend setting up ```pyvenv``` https://docs.python.org/3/library/venv.html use ```python -m ``` not ```python3```
-
 ```
 1 : Get cmake  >> pip install cmake
 2 : Install dlib  >> pip install dlib -vvv
+3 : Install CUDA and Tensorflow.
+4 : >> pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.htm
  Then >> pip install -r requirements.txt
-3 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
+5 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
 ```
 Install takes >30 min due to slow repo's will fix later.
 
