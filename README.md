@@ -9,6 +9,10 @@ Accent Detection in Machine Learning models is a newer concept so this project w
 Speech Recognition Training Using an Breakthrough Wav2Vec Model: 
 https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
 
+Speaker Identification with NeMo : https://github.com/NVIDIA/NeMo/blob/main/tutorials/speaker_recognition/Speaker_Recognition_Verification.ipynb
+Speach Parsing and Recognition with Nvida Jasper : https://ngc.nvidia.com/catalog/models/nvidia:tlt-jarvis:speechtotext_english_jasper
+Nvidia auto Capitalisation Methods : https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/punctuation_and_capitalization.html
+
 ```A Python3 Project ```
 
 Shortlink: or9.ca/jbox
