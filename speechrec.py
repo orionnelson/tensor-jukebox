@@ -52,13 +52,14 @@ class speechrec(object):
             speechrec.transcript(file)
 
 def example1():
+    print("\n\n\nSPEAK  NOW TO HAVE THE MODEL TRANSCRIBE YOUR VOICE: \n\n\n")
     # Tests Audio Recording This can be modified for future usage but currently records to lib/wav/test%d.wav    
     start_time = 0
     while True:
             seconds = 30  # Duration of recording
             file = speechrec.record(seconds)
             sd.wait()
-            print(file)
+            #print(file)
             os.system('vad.py  3 '+str(file))
             # in case recording proccessing time fails / does somthing stupid we have this method that waits till sd is finished
             speechrec.transcript(file)
