@@ -5,9 +5,15 @@ The Idea Behind Tensor Jukebox is is to be able to better predict what music a p
 
 Accent Detection in Machine Learning models is a newer concept so this project will consist of learning Tensorflow and then eventually working to reverse engineer the submissions for INTERSPEECH AESRC 2020 Challenge.
 
+> NEMO ASR Tutorial and Introduction : https://colab.research.google.com/github/NVIDIA/NeMo/blob/r1.0.0b3/tutorials/asr/01_ASR_with_NeMo.ipynb
 
-Speech Recognition Training Using an Breakthrough Wav2Vec Model: 
-https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
+> Speech Recognition Training Using an Breakthrough Wav2Vec Model: https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html
+
+> Speaker Identification with NeMo : https://github.com/NVIDIA/NeMo/blob/main/tutorials/speaker_recognition/Speaker_Recognition_Verification.ipynb
+
+> Speech Parsing and Recognition with Nvida Jasper : https://ngc.nvidia.com/catalog/models/nvidia:tlt-jarvis:speechtotext_english_jasper
+
+> Nvidia auto Punctuation Methods : https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/punctuation_and_capitalization.html
 
 ```A Python3 Project ```
 
@@ -53,13 +59,13 @@ Follow this tutorial to get a general understanding of Git bash https://kbroman.
 ```git clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
 or
 ```git lfs clone``` *You want to work on wav2vec model.
+```git lfs clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox```
 
 ## Before Installing Requirements First Install both Cmake and Visual Studio Cmake addons.
 
 Follow this tutorial here https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f
 
 Next I would recommend setting up ```pyvenv``` https://docs.python.org/3/library/venv.html use ```python -m ``` not ```python3```
-
 ```
 1 : Get cmake  >> pip install cmake
 2 : Install dlib  >> pip install dlib -vvv
@@ -67,6 +73,10 @@ WAIT YOU HAVE CUDA WORKING RIGHT?
 3 : pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html # cu110 is the cuda version max is 111 for torch without extra work.
  Then >> pip install -r requirements.txt
 4 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
+3 : Install CUDA and Tensorflow.
+4 : >> pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.htm
+ Then >> pip install -r requirements.txt
+5 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
 ```
 Install takes >30 min due to slow repo's will fix later.
 
