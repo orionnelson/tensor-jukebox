@@ -70,3 +70,6 @@ urllib3==1.26.6
 Werkzeug==2.0.1
 wrapt==1.12.1
 zipp==3.5.0
+librosa==0.8.1
+SoundDevice==0.4.2
+webrtcvad==2.0.10
