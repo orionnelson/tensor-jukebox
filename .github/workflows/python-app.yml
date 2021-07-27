@@ -23,10 +23,10 @@ jobs:
       run: |
         powershell -Command "& {Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))}"
         powershell -Command "& {choco install mingw}"
-        wget https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1-windows-x86_64.msi
-        msiexec /i cmake-3.21.1-windows-x86_64.msi
-        wget https://download.visualstudio.microsoft.com/download/pr/acfc792d-506b-4868-9924-aeedc61ae654/1778d923fd40c62c29f85cf4ef63a0c855a61c13b1dd68419bcda2cff38c984f/vs_BuildTools.exe
-        start vs_BuildTools.exe
+        powershell -Command "& {wget https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1-windows-x86_64.msi}"
+        powershell -Command "& {msiexec /i cmake-3.21.1-windows-x86_64.msi}"
+        powershell -Command "& {wget https://download.visualstudio.microsoft.com/download/pr/acfc792d-506b-4868-9924-aeedc61ae654/1778d923fd40c62c29f85cf4ef63a0c855a61c13b1dd68419bcda2cff38c984f/vs_BuildTools.exe}"
+        powershell -Command "& {start vs_BuildTools.exe}"
         python -m pip install --upgrade pip
         pip install flake8 pytest transformers
         pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
