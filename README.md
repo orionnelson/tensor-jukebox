@@ -73,10 +73,7 @@ WAIT YOU HAVE CUDA WORKING RIGHT?
 3 : pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html # cu110 is the cuda version max is 111 for torch without extra work.
  Then >> pip install -r requirements.txt
 4 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
-3 : Install CUDA and Tensorflow.
-4 : >> pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.htm
  Then >> pip install -r requirements.txt
-5 : If you get an error that is not 'face was not detected' try reinstalling keras 2.6.0rc0 and it will fix the issue.
 ```
 Install takes >30 min due to slow repo's will fix later.
 
