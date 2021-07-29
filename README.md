@@ -1,5 +1,5 @@
 # tensor-jukebox
-A Jukebox that guesses the music you might want to play based on age and accent.
+A Jukebox that guesses the music you might want to play based on age and accent. 
 
 The Idea Behind Tensor Jukebox is is to be able to better predict what music a person will like based on their age gender accent race and emotion.
 
