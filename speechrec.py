@@ -44,7 +44,7 @@ class speechrec(object):
         predicted_ids = torch.argmax(logits, dim=-1)
         # transcribe
         transcription = processor.batch_decode(predicted_ids)[0]
-        print(transcription)
+        return (transcription)
 
     @staticmethod
     def run():
@@ -62,7 +62,8 @@ def example1():
             #print(file)
             os.system('vad.py  3 '+str(file))
             # in case recording proccessing time fails / does somthing stupid we have this method that waits till sd is finished
-            speechrec.transcript(file)
+            transcript = speechrec.transcript(file)
+            print(transcript)
 
 def example2():
     #Transcribes all audio in recordings.
