@@ -49,7 +49,11 @@ class speechrec(object):
     @staticmethod
     def run():
         for file in glob.glob(os.path.join(wavpath,'*.wav')):
-            speechrec.transcript(file)
+            try:
+                ts = speechrec.transcript(file)
+                print(ts)
+            except:
+                pass
 
 def example1():
     print("\n\n\nSPEAK  NOW TO HAVE THE MODEL TRANSCRIBE YOUR VOICE: \n\n\n")
@@ -71,5 +75,5 @@ def example2():
 
 
 
-
 #example1()
+#example2()
