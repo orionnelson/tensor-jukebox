@@ -4,7 +4,7 @@ warnings.filterwarnings('ignore')
 
 @pytest.mark.speechrec
 def testSpeechRec():
-        from speechrec import speechrec
+	from speechrec import speechrec
 	testpath='test/wav'
 	ts = speechrec.transcript(testpath + '/thisisatest.wav')
 	correct = 'THIS IS A TEST'
@@ -13,10 +13,10 @@ def testSpeechRec():
 
 @pytest.mark.deepface
 def testDeepFace():
-        from DeepFaceExample del deepface
-        testpath = 'test/img/testimage.jpg'
-        output = deepface.checkinfo(testpath)
-        cage=(28<=output[0]<=38)
-        cgen= (output[1]=='Man')
-        crace = (output[2]=='white')
-        assert True==(cage and cgen and crace), "Deep Face Module Failed" 
+	from DeepFaceExample del deepface
+	testpath = 'test/img/testimage.jpg'
+	output = deepface.checkinfo(testpath)
+	cage=(28<=output[0]<=38)
+	cgen= (output[1]=='Man')
+	crace = (output[2]=='white')
+	assert True==(cage and cgen and crace), "Deep Face Module Failed" 
