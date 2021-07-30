@@ -13,7 +13,7 @@ def testSpeechRec():
 
 @pytest.mark.deepface
 def testDeepFace():
-	from DeepFaceExample del deepface
+	from DeepFaceExample import deepface
 	testpath = 'test/img/testimage.jpg'
 	output = deepface.checkinfo(testpath)
 	cage=(28<=output[0]<=38)
