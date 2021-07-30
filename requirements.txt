@@ -11,6 +11,7 @@ colorama==0.4.4
 cycler==0.10.0
 deepface==0.0.63
 dlib==19.22.0
+datasets==1.10.2
 filelock==3.0.12
 Flask==2.0.1
 flatbuffers==1.12
