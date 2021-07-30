@@ -5,13 +5,6 @@ import json
 import cv2
 import time
 
-capture = cv2.VideoCapture(0)
-capture.set(3, 640)
-capture.set(4, 480)
-img_counter = 0
-frame_set = []
-start_time = time.time()
-
 
 class deepface(object):
 
@@ -31,6 +24,12 @@ class deepface(object):
 
     @staticmethod
     def captureStream():
+        capture = cv2.VideoCapture(0)
+        capture.set(3, 640)
+        capture.set(4, 480)
+        img_counter = 0
+        frame_set = []
+        start_time = time.time()
         while True:
             try:
                 ret, frame = capture.read()
@@ -40,7 +39,7 @@ class deepface(object):
                     img_name = "lib/deepface/tests/dataset/opencv_frame_{}.jpg".format(img_counter)
                     cv2.imwrite(img_name, frame)
                     #print("{} written!".format(img_counter))
-                    output = checkinfo("lib/deepface/tests/dataset/opencv_frame_{}.jpg".format(img_counter))
+                    output = deepface.checkinfo("lib/deepface/tests/dataset/opencv_frame_{}.jpg".format(img_counter))
                     text = "Age: "+str(output[0])+"\nGender: "+str(output[1])+"\nRace:  "+str(output[2])+"\nIs: "+(str(output[3]))
                     #print(text)
                     img = cv2.imread(img_name)
@@ -58,4 +57,4 @@ class deepface(object):
 
 
 
-#captureStream()
+#deepface.captureStream()
