@@ -15,7 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: git lfs clone --recurse-submodules git@github.com:orionnelson/tensor-jukebox
+      with:
+        lfs: true
+        submodules: true
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
