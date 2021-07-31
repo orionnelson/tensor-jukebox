@@ -15,10 +15,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: checkout submodules
-      uses: srt32/git-actions@v0.0.3
       with:
-        args: git submodule update --init --recursive
+        submodules: recursive
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
