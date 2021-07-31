@@ -6,4 +6,4 @@
 	url = https://gitee.com/ephemeroptera/arnet.git
 [submodule "lib/wav2vec2-large-960h-lv60"]
 	path = lib/wav2vec2-large-960h-lv60
-	url = http://huggingface.co/facebook/wav2vec2-large-960h-lv60
+	url = https://huggingface.co/facebook/wav2vec2-large-960h-lv60/commit/d53605c934aff643dce64e2383a78b872f040587
