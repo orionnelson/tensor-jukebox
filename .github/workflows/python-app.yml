@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - run: git config --global http.version HTTP/1.1
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
       with:
         lfs: true
         submodules: recursive
