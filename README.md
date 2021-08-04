@@ -46,6 +46,12 @@ Shortlink: or9.ca/jbox
 
 ## Intructions to install Complete:
 
+If you are having trouble following the install steps try following the workflow located in ```.github/workflows/python-app.yml```
+Execute the commands found under ```Install dependencies``` and execute these commands in an admin command line.
+
+change ```cu110``` to the version of ```cuda``` you are using or instead use ```cpu``` in its place if you do not have an Nvidia GPU. 
+
+
 Install MinGW and make sure that gcc is working on system path.
 
 - Do this like me first install choco in powershell https://chocolatey.org/install and run the ps1 script.
