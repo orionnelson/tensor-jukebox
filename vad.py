@@ -9,7 +9,7 @@ import os
 
 # TAKEN FROM https://github.com/wiseman/py-webrtcvad/blob/master/example.py
 
-#TO DO: Fix GarBage Output
+#TO DO: Fi  x GarBage Output
 
 
 def read_wave(path):
